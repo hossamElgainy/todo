@@ -1,32 +1,28 @@
 # ToDo App
 
-A simple Python-based ToDo application starter project for learning, prototyping, and extending with your own task-management features.
+A simple Python starter project for building a ToDo application.
+
+## What this project contains
+
+- `main.py` - the root entry point for the application
+- `todo/` - a related folder present in the workspace
+- `.venv/` - optional local Python virtual environment
 
 ## Features
 
-- Simple Python entry point to get the project running quickly
-- Clean project structure for adding task management features
-- Easy to run from the terminal or your IDE
-- Ready for future enhancements such as:
-  - adding tasks
-  - marking tasks as complete
-  - deleting tasks
-  - saving tasks to a file or database
-
-## Project Structure
-
-- main.py - the main Python script that runs the application
-- .venv/ - virtual environment for project dependencies
+- Minimal starter app structure
+- Easy to run from the terminal or IDE
+- A foundation for adding task management features
 
 ## Requirements
 
 - Python 3.8 or newer
 - A terminal or IDE such as PyCharm or VS Code
 
-## How to Run
+## How to run
 
 1. Open a terminal in the project folder.
-2. Create a virtual environment:
+2. (Optional) Create a virtual environment:
    ```bash
    python -m venv .venv
    ```
@@ -39,11 +35,12 @@ A simple Python-based ToDo application starter project for learning, prototyping
      ```bash
      source .venv/bin/activate
      ```
-4. Run the application:
+4. Run the app:
    ```bash
    python main.py
    ```
 
 ## Notes
 
-The current version is a basic starter template. You can extend it into a full ToDo app by adding task storage, a user interface, and more features.
+- `main.py` currently contains a sample starter script.
+- Extend this project by adding task storage, command handling, or a UI.
